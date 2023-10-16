@@ -1,0 +1,4 @@
+json-downloads:
+  - url: https://docs.google.com/spreadsheets/d/1fEuEpVIyJE_fTlvQVsoCSzzYhMUm73j460MIDA2aZnM/export?format=csv
+    dest: downloaded.csv
+    object-diff: false

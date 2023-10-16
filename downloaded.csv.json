@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "filter": {
+      "name": "csv",
+      "conf": {
+        "rows": "dict",
+        "header-row": 0,
+        "skip-rows": 0,
+        "delimiter": ",",
+        "quotechar": "\"",
+        "skip-empty-rows": true,
+        "trim-values": false
+      }
+    },
+    "filename": "downloaded.csv",
+    "headers": [
+      "Term",
+      "Definition ",
+      "Alternative term",
+      "Rejected terms",
+      "Related terms",
+      "Part of speech",
+      "Provenance",
+      "Notes for translation and localization",
+      "Context Sentence for translation and localization",
+      "Modified on",
+      "Description of modification"
+    ]
+  },
+  "data": [
+    {
+      "Term": "access control list",
+      "Definition ": "An access control list (ACL), with respect to a computer file system, is a list of permissions attached to an object. An ACL specifies which users or system processes are granted access to objects, as well as what operations are allowed on given objects.",
+      "Alternative term": "ACL",
+      "Rejected terms": "",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "Wikipedia.org",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "When you have enabled access control on client data, the access control lists (ACLs) for the data are also included in the backup.",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "allow list",
+      "Definition ": "",
+      "Alternative term": "",
+      "Rejected terms": "* whitelist\n* white list",
+      "Related terms": "denylist",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "application programming interface",
+      "Definition ": "A set of definitions and protocols for building and integrating application software.",
+      "Alternative term": "API",
+      "Rejected terms": "",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "Representational State Transfer, or REST, is a software architecture style for building scalable web services, and an application programming interface, or API, is a set of routines, protocols, and tools for building software applications.",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "autoscaling",
+      "Definition ": "Adding or removing computing resources to account for processing load.",
+      "Alternative term": "",
+      "Rejected terms": "",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "binary large objects",
+      "Definition ": "",
+      "Alternative term": "BLOBs",
+      "Rejected terms": "blobs",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": " SharePoint Storage Manager manages content database growth in SharePoint by storing Binary Large Objects (BLOBs) in a BLOB storage location, leaving only the corresponding metadata in the content database. ",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "deny list",
+      "Definition ": "",
+      "Alternative term": "",
+      "Rejected terms": "* blacklist, blocklist\n* black list, block list\"",
+      "Related terms": "allowlist",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "box",
+      "Definition ": "A text box in a UI.",
+      "Alternative term": "",
+      "Rejected terms": "* field\n* spin box",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "In the User Name box, type the Active Directory user account.",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "command line interface",
+      "Definition ": "A form of interface between the operating system and the user in which the user types commands, using a special command language.",
+      "Alternative term": "",
+      "Rejected terms": "* command-line interface\n* Command Line Interface",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "Microsoft Language Portal",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "The script can later be executed from the [command line interface].",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "air-gapped",
+      "Definition ": "a physically isolated computer from unsecured networks",
+      "Alternative term": "",
+      "Rejected terms": "",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "",
+      "Context Sentence for translation and localization": "",
+      "Modified on": "",
+      "Description of modification": ""
+    },
+    {
+      "Term": "application programming interface",
+      "Definition ": "An API specifies how software components can be interacted with programmatically. Veritone's primary application programming interface (API) is a GraphQL interface. It can be accessed just like other HTTP APIs (e.g., REST) with POST requests.",
+      "Alternative term": "API, after first ref in each doc",
+      "Rejected terms": "",
+      "Related terms": "",
+      "Part of speech": "Noun",
+      "Provenance": "",
+      "Notes for translation and localization": "Representational State Transfer, or REST, is a software architecture style for building scalable web services, and an application programming interface, or API, is a set of routines, protocols, and tools for building software applications.",
+      "Context Sentence for translation and localization": "",
+      "Modified on": "",
+      "Description of modification": ""
+    }
+  ]
+}
