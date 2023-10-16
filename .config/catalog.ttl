@@ -14,7 +14,7 @@ _:glossaryCatalog a dcat:Catalog ;
 
 _:glossary a dcat:Dataset, dcfg:UpliftConfiguration ;
   dct:description "CSV uplift" ;
-  dcfg:glob "**/downloaded.csv.json" ;
+  dcfg:glob "downloaded.csv.json" ;
   dcfg:hasUpliftDefinition [
     dcfg:order 1 ;
     dcfg:file ".config/properties-uplift.yml" ;
