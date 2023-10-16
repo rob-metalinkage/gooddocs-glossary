@@ -5,20 +5,75 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://example.org/access_control_list> a skos:Concept ;
+    skos:altLabel "ACL" ;
+    skos:definition "An access control list (ACL), with respect to a computer file system, is a list of permissions attached to an object. An ACL specifies which users or system processes are granted access to objects, as well as what operations are allowed on given objects." ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:note "When you have enabled access control on client data, the access control lists (ACLs) for the data are also included in the backup." ;
+    skos:prefLabel "access control list" .
+
+<https://example.org/air-gapped> a skos:Concept ;
+    skos:definition "a physically isolated computer from unsecured networks" ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:prefLabel "air-gapped" .
+
+<https://example.org/allow_list> a skos:Concept ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:prefLabel "allow list" ;
+    skos:related <https://example.org/denylist> .
+
+<https://example.org/application_programming_interface> a skos:Concept ;
+    skos:altLabel "API",
+        "API, after first ref in each doc" ;
+    skos:definition "A set of definitions and protocols for building and integrating application software.",
+        "An API specifies how software components can be interacted with programmatically. Veritone's primary application programming interface (API) is a GraphQL interface. It can be accessed just like other HTTP APIs (e.g., REST) with POST requests." ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:note "Representational State Transfer, or REST, is a software architecture style for building scalable web services, and an application programming interface, or API, is a set of routines, protocols, and tools for building software applications." ;
+    skos:prefLabel "application programming interface" ;
+    skos:scopeNote "Representational State Transfer, or REST, is a software architecture style for building scalable web services, and an application programming interface, or API, is a set of routines, protocols, and tools for building software applications." .
+
+<https://example.org/autoscaling> a skos:Concept ;
+    skos:definition "Adding or removing computing resources to account for processing load." ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:prefLabel "autoscaling" .
+
+<https://example.org/binary_large_objects> a skos:Concept ;
+    skos:altLabel "BLOBs" ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:note " SharePoint Storage Manager manages content database growth in SharePoint by storing Binary Large Objects (BLOBs) in a BLOB storage location, leaving only the corresponding metadata in the content database. " ;
+    skos:prefLabel "binary large objects" .
+
+<https://example.org/box> a skos:Concept ;
+    skos:definition "A text box in a UI." ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:note "In the User Name box, type the Active Directory user account." ;
+    skos:prefLabel "box" .
+
+<https://example.org/command_line_interface> a skos:Concept ;
+    skos:definition "A form of interface between the operating system and the user in which the user types commands, using a special command language." ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:note "The script can later be executed from the [command line interface]." ;
+    skos:prefLabel "command line interface" .
+
+<https://example.org/deny_list> a skos:Concept ;
+    skos:inScheme <https://example.org/glossarydemo> ;
+    skos:prefLabel "deny list" ;
+    skos:related <https://example.org/allowlist> .
+
 <https://example.org/glossarydemo> a skos:ConceptScheme ;
     skos:prefLabel "GoodDocs glossary" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2023-10-16T09:06:25.568512"^^xsd:dateTime ;
-    prov:startedAtTime "2023-10-16T09:06:25.399331"^^xsd:dateTime ;
+    prov:endedAtTime "2023-10-16T10:07:29.400596"^^xsd:dateTime ;
+    prov:startedAtTime "2023-10-16T10:07:29.256233"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:f82e758aee9854c3c22213f9a2748f0d028dab56" ;
+            dct:hasVersion "git:a1b0fd6da0f9cb4ca69f1b3c8e1ddfd223b017f9" ;
             rdfs:seeAlso <file:///home/runner/work/gooddocs-glossary/gooddocs-glossary/downloaded.csv.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
             dct:hasVersion "0.3.15.dev1+g2b17930" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "23a7fec6-da16-40dc-8a3a-3f3426a2f703" ] .
+    prov:wasInformedBy [ dct:identifier "64e86faa-930d-40e6-b736-aa77d4c7df62" ] .
 

@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@base": "https://example.org/glossarydemo",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "dct": "http://purl.org/dc/terms/",
     "ID": "@id",
