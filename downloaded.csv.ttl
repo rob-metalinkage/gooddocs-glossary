@@ -1,0 +1,24 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/glossarydemo> a skos:ConceptScheme ;
+    skos:prefLabel "GoodDocs glossary" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2023-10-16T09:06:25.568512"^^xsd:dateTime ;
+    prov:startedAtTime "2023-10-16T09:06:25.399331"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:f82e758aee9854c3c22213f9a2748f0d028dab56" ;
+            rdfs:seeAlso <file:///home/runner/work/gooddocs-glossary/gooddocs-glossary/downloaded.csv.json> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.15.dev1+g2b17930" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "23a7fec6-da16-40dc-8a3a-3f3426a2f703" ] .
+
