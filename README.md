@@ -3,6 +3,10 @@ Demonstration of download and semantic uplift of GoodDocs terminology glossary.
 
 This repository automates conversion of a Google Sheet form into a standardised semantic model using JSON-LD - easily consumed by either JSON or RDF environments.
 
+The source is configured in [.config/config.yml](.config/config.yml).
+
+The output is in [downloaded.csv.ttl](downloaded.csv.ttl)
+
 The workflow can be triggered manually from 
 https://github.com/rob-metalinkage/gooddocs-glossary/actions/workflows/download-and-uplift.yaml
 
