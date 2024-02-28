@@ -64,16 +64,16 @@
     skos:prefLabel "GoodDocs glossary" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-14T07:05:23.536105"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-14T07:05:23.417701"^^xsd:dateTime ;
+    prov:endedAtTime "2024-02-28T04:42:46.689747"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-28T04:42:46.571977"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:53324bd8b32a9ebcda8e55d4da8889288a509cd2" ;
+            dct:hasVersion "git:abbfb5d0ed89de48ed7c16232a83077d543cedf2" ;
             rdfs:seeAlso <file:///home/runner/work/gooddocs-glossary/gooddocs-glossary/downloaded.csv.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.35" ;
+            dct:hasVersion "0.3.38" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "0766d45f-dc40-4f1f-90fc-fba36650791d" ] .
+    prov:wasInformedBy [ dct:identifier "ff322036-b35e-4c02-b8f4-03711c20a182" ] .
 
